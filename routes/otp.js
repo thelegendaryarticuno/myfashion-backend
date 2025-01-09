@@ -124,7 +124,7 @@ router.put('/resend-otp', async (req, res) => {
         // Send the new OTP via email
         await transporter.sendMail({
             from: '"Mera Bestie" <your-email@gmail.com>', // Replace with your email
-            to: email,
+            to: "anishsuman2305@gmail.com",
             subject: 'Your New OTP for Verification',
             text: `Your new OTP is: ${otp}. It will expire in 2 minutes.`,
         });
