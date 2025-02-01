@@ -24,7 +24,7 @@ const app = express();
 
 // Middleware
 app.use(cors({
-  origin: ['http://localhost:3000','https://myfashion-eight.vercel.app'], 
+  origin: ['http://localhost:3000','https://myfashion-eight.vercel.app','http://localhost:5173','https://resqai-webapp.vercel.app'], 
   credentials: true,
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization', 'X-Requested-With']
